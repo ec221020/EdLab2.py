@@ -10,10 +10,10 @@ def dataframe_to_dictionary(df):
         dictionary[header] = [data for data in df[header]]
     return dictionary
 
-todaysData = pd.read_csv("C:\\\\Users\\ec221020\\Downloads\\DATAFORTODAY.csv")
+todaysData = pd.read_csv("DATAFORTODAY.csv")
 datadataForToday = dataframe_to_dictionary(todaysData)
 
-df = pd.read_csv("C:\\\\Users\\ec221020\\Downloads\\DATAFORTODAY.csv")
+df = pd.read_csv("DATAFORTODAY.csv")
 df.head()
 print(df)
 
@@ -24,7 +24,6 @@ xCoords = np.array(xCoords)
 yCoords = np.array(yCoords)
 print(type(xCoords[0]))
 
-import numpy as np
 x = xCoords
 y = yCoords
 
