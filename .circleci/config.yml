@@ -11,7 +11,7 @@ jobs:
           command: pip install -r requirements.txt
       - run:
           name: Run tests
-          command: python testfile.py
+          command: python GraphTestPMCC.py
 
 workflows:
   version: 2
